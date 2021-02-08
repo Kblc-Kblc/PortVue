@@ -7,9 +7,9 @@ Vue.use(Router);
 
 export default new Router({
   mode: "history",
-  base: "",
   path: "/index.html",
   redirect: "/",
+  mode: 'hash',
   routes: [
     {
       path: "/castomStatic",

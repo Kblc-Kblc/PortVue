@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <title>ХУЙ</title>
+  <!--deletestart-->
+  <link rel="stylesheet" type="text/css" href="assets/scss/main.scss" />
+  <!--deleteend-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="typography, webgl, animation, kinetic, three.js, sphere, cloth" />
+  <meta name="description" content="Some examples of kinetic typography using Three.js" />
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <main class="page">
+      <div id="app">
+        <loading-screen v-if="isLoading"></loading-screen>
+        <example-component></example-component>
+        <transition name="fade" mode="out-in">
+          <router-view></router-view>
+        </transition>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
